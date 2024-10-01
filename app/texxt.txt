@@ -1,0 +1,33 @@
+Blue - Actual Data
+Orange - Predicted Data
+Model: XGBoost 
+
+Prediction Assumptions
+predictions are made under the assumption of the following statistics
+
+Rainfall:
+Mean: 5.41 mm/day
+Variance: 3396.93
+Maximum Temperature (Tmax):
+
+Mean: 32.56°C
+Variance: 8.33
+Minimum Temperature (Tmin):
+
+Mean: 24.91°C
+Variance: 3.48
+Relative Humidity (RH):
+
+Mean: 78.11%
+Variance: 37.99
+Wind Direction:
+
+Mean: 204.68°
+Variance: 7651.81
+Wind Speed:
+
+Mean: 2.04 m/s
+Variance: 20.72
+
+Daily Population Growth: 0.0001
+Daily Water Consumption Growth: 0.0001

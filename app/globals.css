@@ -2,26 +2,79 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+	overflow-y: scroll;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+* {
+	font-family: "Inter", sans-serif;
+}
+
+.box {
+	fill: steelblue;
+	stroke: black;
+}
+
+.median {
+	stroke: black;
+	stroke-width: 2;
+}
+
+.whisker {
+	stroke: black;
+}
+
+.outlier {
+	fill: red;
+}
+
+.bar {
+	fill: steelblue;
+}
+
+.bound-bar {
+	fill: orange;
+	opacity: 0.3;
+}
+
+.axis-label {
+	font-size: 12px;
+	text-anchor: middle;
+}
+
+.text {
+	fill: black;
+	text-anchor: middle;
+}
+
+.line-actual {
+	stroke: steelblue;
+	stroke-width: 2;
+	fill: none;
+}
+.line-predicted {
+	stroke: orange;
+	stroke-width: 2;
+	fill: none;
+}
+
+.dot {
+	fill: steelblue;
+}
+.dot:hover {
+	fill: orange;
+}
+.regression-line {
+	stroke: red;
+	stroke-width: 2;
+	fill: none;
+}
+
+.bar:hover {
+	fill: orange;
+}
+.text-label {
+	font-size: 14px;
+	text-anchor: middle;
+	fill: black;
 }
