@@ -248,7 +248,7 @@ export default function VisualSection({ view, currentView }: { readonly view: st
 									<p className="text-gray-600">
 										The chart provides insights into how
 										water consumption varies over time,
-										making it useful for predicting future
+										making it useful for forecasting future
 										demand and managing water resources
 										efficiently. Seasonal variations or
 										anomalies (e.g., droughts) can be easily
@@ -573,7 +573,7 @@ export default function VisualSection({ view, currentView }: { readonly view: st
 									</h4>
 									<p className="text-gray-600">
 										Regular seasonal spikes could help in
-										predicting future consumption and
+										forecasting future consumption and
 										planning for high-demand periods.
 									</p>
 								</div>
@@ -670,7 +670,7 @@ export default function VisualSection({ view, currentView }: { readonly view: st
 						</div>
 					</div>
 
-					<div className="flex flex-row gap-4 justify-between">
+					{/* <div className="flex flex-row gap-4 justify-between">
 						<div className="flex flex-col gap-3">
 							<div className="bg-white p-4 rounded-lg shadow-lg flex-1 flex flex-col gap-4">
 								<h3 className="text-lg font-medium text-gray-700 mb-2 text-center">
@@ -755,7 +755,7 @@ export default function VisualSection({ view, currentView }: { readonly view: st
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> */}
 				</div>
 				<div className="mt-12 bg-gray-100 p-6 rounded-lg">
 					<h2 className="text-2xl font-semibold text-gray-900">
@@ -773,7 +773,7 @@ export default function VisualSection({ view, currentView }: { readonly view: st
 					<p className="mt-2 text-gray-600">
 						Correlation heatmaps highlight the impact of weather
 						conditions like rainfall and temperature on water
-						consumption, offering predictive capabilities for
+						consumption, offering forecasting capabilities for
 						periods of higher or lower demand. Other charts, such as
 						scatter plots and box plots, are useful for identifying
 						anomalies or outliers that can inform resource

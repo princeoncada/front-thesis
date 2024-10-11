@@ -35,15 +35,15 @@ export default function HomeSection({ currentView, view }) {
 							seasonal variations.
 						</li>
 						<li className="mt-2">
-							<strong>Predictive Modeling:</strong> Leverage
+							<strong>Forecasting Modeling:</strong> Leverage
 							cutting-edge models like XGBoost, SARIMAX, and LSTM
 							to forecast future water demand based on
 							environmental factors.
 						</li>
 						<li className="mt-2">
-							<strong>Custom Predictions:</strong> Input your own
+							<strong>Custom Forecasting:</strong> Input your own
 							environmental data to generate water consumption
-							predictions, helping you plan for various scenarios.
+							forecasts, helping you plan for various scenarios.
 						</li>
 						<li className="mt-2">
 							<strong>Interactive Visualizations:</strong> Explore
@@ -75,13 +75,13 @@ export default function HomeSection({ currentView, view }) {
 							correlations.
 						</li>
 						<li className="mt-2">
-							<strong>Future Predictions:</strong> View
+							<strong>Future Forecasting:</strong> View
 							model-based forecasts of water consumption for
 							upcoming periods, helping with strategic planning.
 						</li>
 						<li className="mt-2">
-							<strong>Custom Predictions:</strong> Generate custom
-							water consumption predictions by inputting your own
+							<strong>Custom Forecasting:</strong> Generate custom
+							water consumption forecasts by inputting your own
 							environmental data for specific dates.
 						</li>
 					</ul>
@@ -102,7 +102,7 @@ export default function HomeSection({ currentView, view }) {
 						</li>
 						<li>
 							Plan resource allocation and infrastructure projects
-							based on future demand predictions.
+							based on future demand forecasts.
 						</li>
 						<li>
 							Optimize water usage strategies by understanding the

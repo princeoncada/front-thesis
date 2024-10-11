@@ -50,11 +50,11 @@ export default function PredictSection({ currentView, view }: { view: string }) 
 			{/* Header */}
 			<div className="mb-6">
 				<h1 className="text-3xl font-bold text-gray-900">
-					Custom Water Consumption Predictions
+					Custom Water Consumption Forecasts
 				</h1>
 				<p className="text-lg text-gray-600">
 					Input environmental factors and choose from multiple
-					predictive models to make custom forcasts.
+					forecasting models to make custom forecasts.
 				</p>
 			</div>
 
@@ -252,13 +252,13 @@ export default function PredictSection({ currentView, view }: { view: string }) 
 						type="submit"
 						className="p-3 rounded-lg bg-blue-500 text-white hover:bg-blue-600 transition-colors"
 					>
-						Predict
+						Forecast
 					</button>
 
 					{/* Prediction Result */}
 					<div className="bg-gray-50 p-4 rounded-lg border border-gray-300 flex flex-col gap-1">
 						<h3 className="text-lg font-semibold text-gray-700">
-							Prediction Result:
+							Forecasting Result:
 						</h3>
 						<p className="text-gray-900 text-lg font-base">
 							{predictionResult} Liters
@@ -280,14 +280,14 @@ export default function PredictSection({ currentView, view }: { view: string }) 
 
 			<div className="mt-12 bg-gray-100 p-6 rounded-lg">
 				<h2 className="text-2xl font-semibold text-gray-900">
-					Prediction Insights
+					Forecast Insights
 				</h2>
 				<p className="mt-2 text-gray-600">
-					This custom prediction tool allows users to input specific
+					This custom forecasting tool allows users to input specific
 					environmental factors such as rainfall, temperature,
-					humidity, wind speed, and estimated population to predict
+					humidity, wind speed, and estimated population to determine
 					water consumption using multiple forecasting models. The
-					predicted results can help guide decision-making in resource
+					forecasted results can help guide decision-making in resource
 					planning and infrastructure management.
 				</p>
 
@@ -296,7 +296,7 @@ export default function PredictSection({ currentView, view }: { view: string }) 
 					Model Selection
 				</h3>
 				<p className="mt-2 text-gray-600">
-					Several models are available for prediction, each with its
+					Several models are available for forecasting, each with its
 					strengths. SARIMAX models time series data and accounts for
 					seasonality, FBProphet provides fast and reliable trend
 					forecasting, LSTM is a neural network model for capturing
@@ -307,7 +307,7 @@ export default function PredictSection({ currentView, view }: { view: string }) 
 				<p className="mt-2 text-gray-600">
 					Depending on the complexity of the scenario and the
 					available data, different models may perform better in
-					predicting water consumption. However, the XGBoost model has
+					forecasting water consumption. However, the XGBoost model has
 					proven to be the most accurate, as indicated by the error
 					metrics shown.
 				</p>
@@ -325,18 +325,18 @@ export default function PredictSection({ currentView, view }: { view: string }) 
 				<ul className="mt-2 text-gray-600 list-disc list-inside">
 					<li>
 						<b>MSE:</b> Measures the average squared difference
-						between actual and predicted values. Lower values
+						between actual and forecasted values. Lower values
 						indicate better accuracy.
 					</li>
 					<li>
 						<b>RMSE:</b> Provides the square root of MSE, which
 						allows the error to be interpreted in the same units as
-						the predicted variable (liters in this case).
+						the forecasting variable (liters in this case).
 					</li>
 					<li>
 						<b>MAE:</b> Represents the average absolute difference
-						between actual and predicted values, helping understand
-						the prediction’s overall deviation.
+						between actual and forecasted values, helping understand
+						the forecast&apos;s overall deviation.
 					</li>
 					<li>
 						<b>MAPE:</b> Indicates the error as a percentage, which
@@ -345,20 +345,20 @@ export default function PredictSection({ currentView, view }: { view: string }) 
 					</li>
 				</ul>
 				<p className="mt-2 text-gray-600">
-					In this prediction tool, XGBoost had the best error metrics,
+					In this forecasting tool, XGBoost had the best error metrics,
 					indicating it outperforms the other models in minimizing
-					prediction errors.
+					forecast errors.
 				</p>
 
 				{/* Section 3: Custom Predictions */}
 				<h3 className="mt-4 text-xl font-semibold text-gray-900">
-					Custom Predictions
+					Custom Forecasting
 				</h3>
 				<p className="mt-2 text-gray-600">
-					Users can make custom predictions by entering specific
+					Users can make custom forecasting by entering specific
 					values for environmental factors such as rainfall,
 					temperature, and estimated population. This tool generates a
-					water consumption prediction based on the selected model. By
+					water consumption forecasting based on the selected model. By
 					comparing various scenarios, users can gain insights into
 					how changes in environmental conditions might impact water
 					consumption.
@@ -369,7 +369,7 @@ export default function PredictSection({ currentView, view }: { view: string }) 
 					Decision-Making with Forecasts
 				</h3>
 				<p className="mt-2 text-gray-600">
-					The predictions provide valuable information for
+					The forecasts provide valuable information for
 					infrastructure planning, resource allocation, and
 					conservation initiatives. By adjusting input values (e.g.,
 					projected population growth or expected changes in climate

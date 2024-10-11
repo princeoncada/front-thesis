@@ -21,7 +21,7 @@ export default function FutureSection({ currentView, view }: { view: string }) {
 					Forecasting Water Consumption
 				</h1>
 				<p className="text-lg text-gray-600">
-					Explore model-driven predictions to anticipate future water
+					Explore model-driven forecasting to anticipate future water
 					usage and climate behavior, providing valuable insights for
 					proactive decision-making.
 				</p>
@@ -30,7 +30,7 @@ export default function FutureSection({ currentView, view }: { view: string }) {
 			{/* Prediction Chart */}
 			<div className="bg-white  p-6 rounded-lg shadow-lg">
 				<h2 className="text-center text-lg font-semibold text-gray-700 mb-4">
-					Prediction Chart
+					Forecasting Chart
 				</h2>
 				<PredictionChart data={data} />
 			</div>
@@ -41,7 +41,7 @@ export default function FutureSection({ currentView, view }: { view: string }) {
 					Actual Data
 				</button>
 				<button className="flex-1 bg-orange-500 hover:bg-orange-400 text-white py-3 rounded-lg font-medium transition-colors duration-200">
-					Predicted Data
+					Forecasted Data
 				</button>
 				<div className="flex-1 border py-3 rounded-lg text-center">
 					Model: XGBoost
@@ -54,7 +54,7 @@ export default function FutureSection({ currentView, view }: { view: string }) {
 			{/* Prediction Statistics */}
 			<div className="flex flex-col gap-6">
 				<h2 className="text-center text-lg font-semibold text-gray-700">
-					Prediction Assumptions
+					Forecasting Assumptions
 				</h2>
 
 				{/* Statistics Grid */}
@@ -130,7 +130,7 @@ export default function FutureSection({ currentView, view }: { view: string }) {
 				<p className="mt-2 text-gray-600">
 					The forecasts are generated using various predictive models,
 					with assumptions based on the statistics from the existing
-					historical data. These predictions provide insights into
+					historical data. These forecasts provide insights into
 					future water consumption patterns and their relationship
 					with climate variables like temperature, humidity, and
 					rainfall.
@@ -151,19 +151,19 @@ export default function FutureSection({ currentView, view }: { view: string }) {
 					The XGBoost model, after optimization using particle swarm
 					optimization (PSO), produced the best error metrics.
 					Therefore, it was selected for making the final forecasts.
-					This model's strength lies in its ability to handle large
+					This model&apos;s strength lies in its ability to handle large
 					datasets and capture non-linear relationships between water
 					consumption and climate variables.
 				</p>
 
 				{/* Section 2: Prediction Assumptions Based on Historical Data */}
 				<h3 className="mt-4 text-xl font-semibold text-gray-900">
-					Prediction Assumptions Based on Historical Data
+					Forecast Assumptions Based on Historical Data
 				</h3>
 				<p className="mt-2 text-gray-600">
 					The forecasts are grounded in the assumption that future
 					climate conditions will behave similarly to historical
-					patterns. The prediction assumptions are calculated from the
+					patterns. The forecasts assumptions are calculated from the
 					statistics of the historical dataset, including key
 					variables such as rainfall, temperature, relative humidity,
 					and wind speed. For example, the average rainfall is
